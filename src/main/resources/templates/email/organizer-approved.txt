@@ -1,0 +1,9 @@
+Olá, [(${recipient_name})]
+
+O cadastro da [(${legal_name})] foi aprovado. Você já pode acessar o backoffice.
+
+Acessar o backoffice: http://localhost:3000
+
+PulsePass
+
+Esta é uma mensagem automática do PulsePass. Não responda a este e-mail.

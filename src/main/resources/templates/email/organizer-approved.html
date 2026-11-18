@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>PulsePass</title>
+</head>
+<body style="margin:0;padding:0;background-color:#E5E5E5;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#E5E5E5;">
+<tr>
+<td align="center" style="padding:32px 16px;">
+<table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:560px;">
+<tr>
+<td style="padding:0 8px 16px 8px;font-family:'Familjen Grotesk',Arial,Helvetica,sans-serif;font-size:20px;font-weight:bold;color:#2B2D31;">PulsePass</td>
+</tr>
+<tr>
+<td style="background-color:#FFFFFF;border-radius:12px;padding:32px;font-family:'Familjen Grotesk',Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#2B2D31;">
+<p style="margin:0 0 16px 0;font-size:20px;line-height:28px;font-weight:bold;color:#2B2D31;">Olá, <span th:text="${recipient_name}">Maria</span></p>
+<p style="margin:0 0 16px 0;color:#2B2D31;">O cadastro da <strong th:text="${legal_name}">Eventos Silva LTDA</strong> foi aprovado. Você já pode acessar o backoffice.</p>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:24px 0;">
+<tr>
+<td align="center" bgcolor="#FF6B5B" style="background-color:#FF6B5B;border-radius:8px;"><a href="http://localhost:3000" style="display:inline-block;padding:14px 28px;font-family:'Familjen Grotesk',Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;color:#2B2D31;text-decoration:none;">Acessar o backoffice</a></td>
+</tr>
+</table>
+<p style="margin:0;color:#2B2D31;">PulsePass</p>
+</td>
+</tr>
+<tr>
+<td style="padding:16px 8px 0 8px;font-family:'Familjen Grotesk',Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#2B2D31;">Esta é uma mensagem automática do PulsePass. Não responda a este e-mail.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
