@@ -1,0 +1,20 @@
+{
+  "times": {
+    "remainingTimes": 1,
+    "unlimited": false
+  },
+  "httpRequest": {
+    "method": "POST",
+    "path": "/api/send/{sandbox_id}"
+  },
+  "httpResponse": {
+    "statusCode": 400,
+    "headers": {
+      "Content-Type": ["application/json"]
+    },
+    "body": {
+      "success": false,
+      "errors": ["'to' email is invalid"]
+    }
+  }
+}

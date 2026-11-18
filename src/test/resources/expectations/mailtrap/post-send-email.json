@@ -1,0 +1,16 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/api/send/{sandbox_id}"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": ["application/json"]
+    },
+    "body": {
+      "success": true,
+      "message_ids": ["0c7fd939-02cf-11ed-88c0-0a58a9feac02"]
+    }
+  }
+}

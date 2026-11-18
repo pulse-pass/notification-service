@@ -1,0 +1,11 @@
+Olá, [(${recipient_name})]
+
+O cadastro da [(${legal_name})] foi reprovado.
+
+Motivo: [(${rejection_reason_description})]
+
+Revise os dados informados no cadastro. Se tiver dúvidas sobre a decisão, entre em contato com a gente.
+
+PulsePass
+
+Esta é uma mensagem automática do PulsePass. Não responda a este e-mail.
